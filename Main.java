@@ -34,11 +34,6 @@ public class Main {
         graph.addVertex(zero);
 
         DFS dfs = new DFS(graph);
-        /*Stack<Vertex> stack = dfs.getTopologicalSortOrder();
-        while(!stack.empty())
-        {
-            Vertex v = stack.pop();
-            System.out.print(v+" ");
-        }*/
+
     }
 }
